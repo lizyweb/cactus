@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Cactus Social Education Health and Research Foundation is committed to promoting social welfare, education, healthcare, and research initiatives.">
+    <meta name="keywords" content="Cactus, Social, Education, Health, Research, Foundation">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@YourTwitterHandle">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="URL_TO_IMAGE">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="URL_TO_IMAGE">
+    <meta property="og:url" content="URL_TO_YOUR_WEBSITE">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="">
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
+
+    <!-- Assets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/animate/animate.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/aos/aos.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Cactus</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark text-white d-none d-lg-flex topbar" id="home">
+        <div class="container py-3">
+            <div class="d-flex align-items-center">
+                <small class=""><i class="fa fa-envelope me-3"></i><a href="mailto:cactuscbe@gmail.com" style="color: white;">cactuscbe@gmail.com</a></small>
+                <small class="ms-4"><i class="fa fa-phone-alt me-3"></i><a href="tel:7845660689" style="color: white;">+91 78456 60689</a></small>
+                <!-- <div class="ms-auto d-flex align-items-center">
+                    <div class="ms-3 d-flex icons">
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Main Header Start -->
+    <div class="sticky-top">
+        <div class="main-header-area" style="height: 80px;">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <nav class="classy-navbar justify-content-between" id="robertoNav">
+
+                        <a class="nav-brand" href="index.html" style="color: var(--brand);"><img src="img/logo.jpg" height="50px"  alt="">Cactus</a>
+
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <div class="classy-menu">
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#programmes">Programmes</a>
+                                        <ul class="dropdown dropdown-laptop">
+                                            <li><a href="health-awareness.html">Health Awareness</a></li>
+                                            <li><a href="education.html">Education</a></li>
+                                            <li><a href="women.html">Women & Child Development Initiative</a></li>
+                                            <li><a href="research.html">Research</a></li>
+                                            <li><a href="capacity.html">Capacity Building for different Stay holders</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#services">Services</a>
+                                        <ul class="dropdown dropdown-laptop">
+                                            <li><a href="counselling.html">Counselling & Therphy</a></li>
+                                            <li><a href="social.html">Social Audit and Impact Assessment</a></li>
+                                            <li><a href="base-line.html">Base line and End line Survey</a></li>
+                                            <li><a href="reporting.html">Reporting and Documentation</a></li>
+                                            <li><a href="posh.html">PoSH - Compliance</a></li>
+                                            <li><a href="monitoring.html">Monitoring and Evaluation activities</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="training.html">Training</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+
+                                <!-- Book Now -->
+                                <div class="book-now-btn ml-3 ml-lg-5">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Get in Touch</a>
+                                </div>
+
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Area End -->
+
+
+
+    <!-- Carousel -->
+    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel"
+    data-bs-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="slide slide1">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 900px;">
+                        <h1 class="text-uppercase animated mb-3 slideInDown font-1">Welcome To</h1>
+                        <h3 class="my-4 text-white mb-md-4 animated zoomIn font-2">Cactus Social Education Health and Research Foundation</h3>
+                        <a href="#about" class="btn slide-btn animated slideInLeft">About Us</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide slide2">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 900px;">
+                        <h1 class="text-uppercase animated mb-3 slideInDown font-1">Foundation</h1>
+                        <h3 class="my-4 text-white mb-md-4 animated zoomIn font-2">NPO(Not for Profit Organization) for Impact</h3>
+                        <a href="#services" class="btn slide-btn animated slideInLeft">Services</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide slide3">
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 900px;">
+                        <h1 class="text-uppercase animated mb-3 slideInDown font-1">Established</h1>
+                        <h3 class="my-4 text-white mb-md-4 animated zoomIn font-2">Creating Sustainable Impact</h3>
+                        <a href="#contact" class="btn slide-btn animated slideInLeft">Contact Now</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!--about-->
+
+
+    <!-- Features Start -->
+    <div class="container-fluid py-5 wow fadeInUp bg-light" data-wow-delay="0.1s" id="about">
+        <div class="container py-5">
+            <h1 class="py-3">About Us</h1>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-cubes text-white"></i>
+                            </div>
+                            <h4>Our Mission:</h4>
+                            <p class="mb-0">To empower individuals and communities through holistic social, educational, health, and research initiatives, fostering sustainable development and well-being for all.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/image/about-new.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-users-cog text-white"></i>
+                            </div>
+                            <h4>Our Vision:</h4>
+                            <p class="mb-0">Our vision is to create a world where every individual has access to quality education, comprehensive healthcare services, and opportunities for social development. Through innovative research and collaborative efforts, we aim to cultivate resilient communities that thrive in harmony with each other and the environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features Start -->
+
+    <div class="container-fluid mt-5 wow fadeInUp">
+        <div class="container py-5">
+            <div class="main-about row g-5">
+                <div class="col-lg-6  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="sub-img position-absolute w-100 h-100 wow zoomIn" height="300px" data-wow-delay="0.1s" src="img/image/about-2.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 g-5">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <h6 style="color: var(--brand);">Non-Profit Initiative</h6>
+                            <h1 class="py-3">Sustainable Social Impact Initiative</h1>
+                            <p class="mb-0">Cactus Social Education Health and Research Foundation, founded on 02-06-2022 under the Indian Trust Act 1892, is a non-profit organization dedicated to fostering sustainable and impactful social ecosystems. Our mission is to advance education, promote health, and conduct research for the betterment of society. Through collaborative efforts and community engagement, we strive to address pressing social issues and drive positive change. With a commitment to transparency and integrity, we work tirelessly to empower individuals and communities, ensuring equitable access to opportunities and resources. Join us in our journey towards building a brighter and healthier future for all.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 wow fadeInDown" data-wow-delay="0.2s">
+    
+                <div class="d-table-sub d-table-sub-box mb-5" style="border-top: 5px solid #6cc8df; background-color: var(--brand); color: white;">
+                    <h4 class="subh" style="color: #6cc8df;">Bank Account Details</h4>
+                    <div class="about-date">
+                        <div class="about-date-sub" style="border-color: rgb(187, 183, 183);">
+                            <p>Name of the Account :</p>
+                            <p>CACTUS SEHR FOUNDATION</p>
+                        </div>
+                        <div class="about-date-sub" style="border-color: rgb(187, 183, 183);">
+                            <p>Account No :</p>
+                            <p>50200072134423</p>
+                        </div>
+                        <div class="about-date-sub" style="border-color: rgb(187, 183, 183);">
+                            <p>Bank Name :</p>
+                            <p>HDFC Bank</p>
+                        </div>
+                        <div class="about-date-sub" style="border-color: rgb(187, 183, 183);">
+                            <p>Account Type :</p>
+                            <p>Savings</p>
+                        </div>
+                        <div class="about-date-sub" style="border-color: rgb(187, 183, 183);">
+                            <p>Brach :</p>
+                            <p>Avinashi Road, Coimbatore</p>
+                        </div>
+                        <div class="about-date-sub" style="border-color: rgb(187, 183, 183);">
+                            <p>IFSC Code :</p>
+                            <p>HDFC0001250</p>
+                        </div>
+                        <!-- <div class="appoin text-center">
+                            <button data-bs-toggle="modal" data-bs-target="#exampleModal">REQUEST APPOINTMENT</button>
+                        </div> -->
+                    </div>
+                </div>
+        
+            </div>
+
+            <div class="col-lg-6 col-md-12 wow fadeInDown" data-wow-delay="0.4s">
+    
+                <div class="d-table-sub d-table-sub-box mb-5" style="border-top: 5px solid #6cc8df; background-color: var(--brand); color: white;">
+                    <h4 class="subh" style="color: #6cc8df;">Registration Details</h4>
+                    <div class="about-date">
+                        <div class="about-date-sub" style="border-color: rgb(187, 183, 183);">
+                            <p>Reg No :</p>
+                            <p>Book 4/2022 /120/20</p>
+                        </div>
+                        <div class="about-date-sub" style="border-color: rgb(187, 183, 183);">
+                            <p>PAN No :</p>
+                            <p>AADTC0974A</p>
+                        </div>
+                        <div class="about-date-sub" style="border-color: rgb(187, 183, 183);">
+                            <p>80G Number :</p>
+                            <p>AADTC0974AF2023101</p>
+                        </div>
+                        <div class="about-date-sub" style="border-color: rgb(187, 183, 183);">
+                            <p>12 (A) Number :</p>
+                            <p>AADTC0974A2022101</p>
+                        </div>
+                        <div class="about-date-sub" style="border-color: rgb(187, 183, 183);">
+                            <p>DARPAN ID :</p>
+                            <p>TN/2022/0318963</p>
+                        </div>
+                        <!-- <div class="appoin text-center">
+                            <button data-bs-toggle="modal" data-bs-target="#exampleModal">REQUEST APPOINTMENT</button>
+                        </div> -->
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--================ Programmes Area  =================-->
+    <section class="facilities_area section_gap" id="programmes">
+        <!-- <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background=""></div> -->
+        <div class="container">
+            <div class="section_title text-center pt-5">
+                <h2 class="text-white">Programmes</h2>
+                <p class="text-white">Cactus Foundation's programs empower communities for holistic well-being.</p>
+            </div>
+            <div class="row g-3 facilities_item-head">
+                <div class="col-lg-4 col-md-6 wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                    <a href="health-awareness.html">
+                        <div class="facilities_item">
+                            <h5 class="sec_h4"><i class="bi bi-arrow-return-right"></i>Health Awareness</h5>
+                            <p> "Health Awareness" stands as a cornerstone, promoting education, prevention, and well-being for individuals and communities alike.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <a href="education.html">
+                        <div class="facilities_item">
+                            <h5 class="sec_h4"><i class="bi bi-arrow-return-right"></i>Education</h5>
+                            <p>In our programs, we offer Career Counselling and Guidance, equipping individuals with essential Life Skills.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.5s">
+                    <a href="women.html">
+                        <div class="facilities_item">
+                            <h5 class="sec_h4"><i class="bi bi-arrow-return-right"></i>Women & Child Development Initiative</h5>
+                            <p>Developing women and children through innovative development programs.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                    <a href="research.html">
+                        <div class="facilities_item">
+                            <h5 class="sec_h4"><i class="bi bi-arrow-return-right"></i>Research</h5>
+                            <p>At Cactus Foundation, research drives innovation, guiding evidence-based solutions for societal well-being and progress.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                    <a href="capacity.html">
+                        <div class="facilities_item">
+                            <h5 class="sec_h4"><i class="bi bi-arrow-return-right"></i>Capacity Building for different Stay holders</h5>
+                            <p>Cactus Foundation fosters capacity building for diverse stakeholders.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================ Programmes Area  =================-->
+
+
+
+    <div class="site-section bg-light" id="services">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-12 text-center">
+              <h2 class="site-section-heading text-center font-secondary">Our Services</h2>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+            
+          <div class="d-block d-lg-flex">
+            <div class="half-wrap d-block d-md-flex wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                <div class="half bg-img img" style="background-image: url('img/image/Counselling.jpg');"></div>
+              <div class="half bg-white d-block d-md-flex arrow-left">
+                <div class="text">
+                  <h2>Counselling & Therphy</h2>
+                  <p>Our counseling & therapy services offer personalized support, promoting mental health and emotional well-being.</p>
+                  <p><a href="counselling.html" class="button_hover theme_btn_two">Learn More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="half-wrap d-block d-md-flex wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                <div class="half bg-img img" style="background-image: url('img/image/Social.jpg');"></div>
+              <div class="half bg-white d-block d-md-flex arrow-left">
+                <div class="text">
+                  <h2>Social Audit and Impact Assessment</h2>
+                  <p>Comprehensive social audit and impact assessment services for community development.</p>
+                  <p><a href="social.html" class="button_hover theme_btn_two">Learn More</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="d-block d-lg-flex">
+              <div class="half-wrap d-block d-md-flex wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                <div class="half bg-img img" style="background-image: url('imgs/img2.jpg');"></div>
+                <div class="half bg-white d-block d-md-flex arrow-left order-md-2">
+                  <div class="text">
+                    <h2>Base line and End line Survey</h2>
+                    <p>Our services include comprehensive baseline and endline surveys for impactful research insights.</p>
+                    <p><a href="base-line.html" class="button_hover theme_btn_two">Learn More</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="half-wrap d-block d-md-flex wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                <div class="half bg-img img" style="background-image: url('img/image/Reporting.jpg');"></div>
+                <div class="half bg-white  d-block d-md-flex arrow-left order-md-2">
+                  <div class="text">
+                    <h2>Reporting and Documentation</h2>
+                    <p>In our services, meticulous reporting and documentation ensure transparency and accountability.</p>
+                    <p><a href="reporting.html" class="button_hover theme_btn_two">Learn More</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="d-block d-lg-flex">
+                <div class="half-wrap d-block d-md-flex wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                  <div class="half bg-img img" style="background-image: url('imgs/img23.jpg');"></div>
+                  <div class="half bg-white d-block d-md-flex arrow-left order-md-2">
+                    <div class="text">
+                      <h2>PoSH - Compliance</h2>
+                      <p>Ensuring workplace safety through comprehensive Prevention of Sexual Harassment (PoSH) compliance programs.</p>
+                      <p><a href="posh.html" class="button_hover theme_btn_two">Learn More</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="half-wrap d-block d-md-flex wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                  <div class="half bg-img img" style="background-image: url('imgs/img9.jpg');"></div>
+                  <div class="half bg-white  d-block d-md-flex arrow-left order-md-2">
+                    <div class="text">
+                      <h2>Monitoring and Evaluation activities </h2>
+                      <p>Incorporating robust monitoring and evaluation practices for impactful service delivery.</p>
+                      <p><a href="monitoring.html" class="button_hover theme_btn_two">Learn More</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid-xxl pt-5 contact" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="text-light mb-5">Contact Us</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="conact-details">
+                        <p class="fs-5 fw-medium" style="color:var(--brand);">Register Office</p>
+                        <p>SF.No 319/1, Site No.63, “A” Block , Innisai Nagar, Chinnamathampalayam, Billichi, Coimbatore 641019.</p>
+                        <p class="fs-5 fw-medium" style="color:var(--brand);">Field Office </p>
+                        <p>206 MTR Road, 1st Street Jothipuram Coimbatore 641047.</p>
+                        <p class="mb-4 contact-no"><b>Phone : <a href="tel:7845660689" style="color:black">78456 60689</a></b><br><b>Email : <a href="mailto:cactuscbe@gmail.com" style="color:black">mailto:cactuscbe@gmail.com</a></b></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 contact-form wow fadeInUp" data-wow-delay="0.5s">
+                    <h2 class="mb-2">Get A Free Quote</h2>
+                    <form action="contact.php" method="post">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" name="name" required>
+                                <label for="name">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="mail" placeholder="Your Email" name="email" required>
+                                <label for="mail">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="mobile" placeholder="Your Mobile" name="phone" required>
+                                <label for="mobile">Your Mobile</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                    style="height: 130px" name="comments" required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn btn-brand w-100 py-3" type="submit">Submit Now</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 contact-map wow fadeInup zoomIn" data-wow-delay="0.1s">
+        <iframe class="position-relative rounded w-100 h-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.689218979186!2d76.96363907409335!3d11.21061425103693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f04ae273c121%3A0xdbee46a57afd98cf!2sChinnamathampalayam%20Billichi!5e0!3m2!1sen!2sin!4v1707224633538!5m2!1sen!2sin"
+            frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </div>
+    <!-- Contact Start -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-5 col-md-6">
+                <h4 class="mb-4 footer-head">Cactus</h4>
+                <p class="footer-color">Cactus Social Education Health and Research Foundation is dedicated to promoting social welfare, education, healthcare, and research initiatives. With a focus on community development, we strive to create positive impact through innovative programs and collaborations. Our commitment extends to developing individuals and enhancing their well-being. Join us in our mission to build a healthier, more informed society. Together, we can cultivate lasting change for a brighter future.</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="mb-4 footer-head">Quick Links</h4>
+                <a class="btn btn-link" href="index.html">Home</a>
+                <a class="btn btn-link" href="#about">About Us</a>
+                <a class="btn btn-link" href="#programmes">Programmes</a>
+                <a class="btn btn-link" href="#services">Services</a>
+                <a class="btn btn-link" href="#contact">Contact Us</a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h4 class="mb-4 footer-head">Address</h4>
+                <p class="mb-2 footer-color"><i class="fa fa-map-marker-alt me-3"></i> SF.No 319/1, Site No.63,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “A” Block , Innisai Nagar,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chinnamathampalayam,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Billichi, Coimbatore 641019.</p>
+                <p class="mb-2 footer-color"><i class="fa fa-phone-alt me-3"></i>+91 78456 60689</p>
+                <p class="mb-2 footer-color"><i class="fa fa-envelope me-3"></i>cactuscbe@gmail.com</p>
+                <!-- <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href="" style="border-radius: 100px;"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="" style="border-radius: 100px;"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="" style="border-radius: 100px;"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="" style="border-radius: 100px;"><i class="fab fa-youtube"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- <hr class="footer-hr"> -->
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-12 text-center mb-3 mb-md-0 footer-color">
+                    &copy; Copyright 2024 <a class="border-bottom" href="index.html">Cactus</a> , All Right Reserved. <a class="border-bottom" href="https://lizyweb.com" target="_blank">Website Designed By Lizyweb.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" 
+    aria-hidden="true" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12" style="display: flex;align-items: center;justify-content: center;">
+                                <form class="col-12 row g-3" action="contact.php" name="contactform" 
+                                method="post">
+                                    <div>
+                                        <h4 class="text-center" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Contact Us</h4>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="userName" class="form-label" style="color: black;">Name</label>
+                                        <input type="text" name="name" class="form-control" 
+                                        placeholder="Name" id="userName"
+                                            aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="userName" class="form-label" style="color: black;">Phone</label>
+                                        <input type="text" name="phone" class="form-control" 
+                                        placeholder="Phone" id="userName"
+                                            aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="userName" class="form-label" style="color: black;">Email</label>
+                                        <input type="email" name="email" class="form-control" 
+                                        placeholder="Email"
+                                            id="userName" aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                        <div class="col-12">
+                                        <label for="exampleInputEmail1" class="form-label" style="color: black;">Message</label>
+                                        <textarea name="comments" placeholder="Enter Your Message"
+                                            class="form-control" id="" rows="2" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" style="background-color: #fc7341;color: white;border: 1px solid #fc7341;padding: 8px 20px;border-radius: 3px;">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-lg-square rounded back-to-top" style="background-color: var(--brand);color: white;" data-aos="zoom-in"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Float Icons -->
+    <a href="tel:7845660689" class="float">
+        <i class='bx bxs-phone my-float'></i>
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=7845660689&text=I am interested in your services." class="float-2" target="_blank">
+        <i class='fab fa-whatsapp my-float'></i>
+    </a>
+
+    <!-- Template Main JS File -->
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/wow/wow.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="assets/slick/slick-animation.min.js"></script>
+    <script src="assets/fancybox/jquery.fancybox.min.js"></script>
+    <script src="assets/aos/aos.js"></script>
+    <script src="js/roberto.bundle.js"></script>
+    <script>
+        (function ($) {
+            "use strict";
+            
+            // Initiate the wowjs
+            new WOW().init();
+            
+        })(jQuery);
+    </script>
+    <script>
+        // Back to top button
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.back-to-top').fadeIn('slow');
+            } else {
+                $('.back-to-top').fadeOut('slow');
+            }
+            });
+            $('.back-to-top').click(function () {
+            $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+            return false;
+        });
+    </script>
+    <script>
+        // Animation on scroll
+        window.addEventListener('load', () => {
+            AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
+            })
+        });
+    </script>
+</body>
+</html>
